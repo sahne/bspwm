@@ -1,0 +1,19 @@
+complete bspc 'p/1/(config control desktop monitor pointer query quit restore window)/' \
+	      'n/config/(active_border_color active_frame_opacity \
+			 active_locked_border_color active_private_border_color \
+			 apply_floating_atom auto_alternate auto_cancel \
+			 border_width borderless_monocle bottom_padding \
+			 focus_follows_pointer focused_border_color \
+			 focused_frame_opacity focused_locked_border_color \
+			 focused_private_border_color focused_sticky_border_color \
+			 gapless_monocle growth_factor history_aware_focus \
+			 ignore_ewmh_focus left_padding normal_border_color \
+			 normal_frame_opacity normal_locked_border_color \
+			 normal_private_border_color normal_sticky_border_color \
+			 pointer_follows_monitor presel_border_color \
+			 remove_disabled_monitor right_padding rule_command \
+			 split_ratio status_prefix top_padding urgent_border_color \
+			 window_gap)/'
+
+
+# vim: set ft=tcsh
